@@ -1814,8 +1814,8 @@ GameObject:
   - component: {fileID: 6594039630328856922}
   - component: {fileID: 6594039630328856916}
   - component: {fileID: 6594039630328856923}
-  - component: {fileID: -8970476645005463088}
   - component: {fileID: -1341273563226875820}
+  - component: {fileID: -6857433172491780052}
   m_Layer: 5
   m_Name: LoginForm
   m_TagString: Untagged
@@ -1889,18 +1889,6 @@ MonoBehaviour:
   m_FillOrigin: 0
   m_UseSpriteMesh: 0
   m_PixelsPerUnitMultiplier: 1
---- !u!114 &-8970476645005463088
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 6594039630328856921}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 0d1b746634ee15943934ff4baa42e915, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
 --- !u!223 &-1341273563226875820
 Canvas:
   m_ObjectHideFlags: 0
@@ -1919,11 +1907,23 @@ Canvas:
   m_OverridePixelPerfect: 0
   m_SortingBucketNormalizedSize: 0
   m_VertexColorAlwaysGammaSpace: 1
-  m_AdditionalShaderChannelsFlag: 25
+  m_AdditionalShaderChannelsFlag: 0
   m_UpdateRectTransformForStandalone: 0
   m_SortingLayerID: 0
   m_SortingOrder: 0
   m_TargetDisplay: 0
+--- !u!114 &-6857433172491780052
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6594039630328856921}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 0d1b746634ee15943934ff4baa42e915, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
 --- !u!1 &6618892326159125019
 GameObject:
   m_ObjectHideFlags: 0

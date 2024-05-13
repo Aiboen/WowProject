@@ -17,7 +17,7 @@ namespace WowGame
             GameEntry.Event.Subscribe(OpenUIFormSuccessEventArgs.EventId, OnOpenUIFormSuccess);
 
             m_StartGame = false;
-            GameEntry.UI.OpenUIForm(UIFormId.TipForm, this);
+            GameEntry.UI.OpenUIForm(UIFormId.LoginForm, this);
             //GameEntry.UI.OpenUIForm(AssetUtility.GetUIFormAsset("LoginForm"), "Default", 1, this);
         }
 

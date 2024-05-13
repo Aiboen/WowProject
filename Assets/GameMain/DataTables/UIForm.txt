@@ -1,13 +1,12 @@
-#Id	AssetName	UIGroupName	AllowMultiInstane	PauseCoveredUIForm
-#int	string	string	bool	bool
-#界面编号	策划备注	资源名称	界面组名称	是否允许多个界面实例
-1	弹出框	TipForm	Default	TRUE
-100	登录	LoginForm	Default	FALSE
-101	注册	RegisterForm	Default	FALSE
-102	选择英雄	ChoiceForm	Default	FALSE
-103	创建角色	CharacterCreateForm	Default	FALSE
-104	加载	LoadForm	Default	FALSE
-105	游戏界面	GameForm	Default	FALSE
-106	遮罩	MaskForm	Default	FALSE
-					
-					
+#	UI界面
+#	int	string	string	bool	bool	bool
+#	界面编号	策划备注	资源名称	界面组名称	是否允许多个界面实例	是否暂停被其覆盖的页面
+#	Id	Notes	AssetName	UIGroupName	AllowMultiInstane	PauseCoveredUIForm
+	1	弹出框	TipForm	Default	TRUE	FALSE
+	100	登录	LoginForm	Default	FALSE	FALSE
+	101	注册	RegisterForm	Default	FALSE	FALSE
+	102	选择英雄	ChoiceForm	Default	FALSE	FALSE
+	103	创建角色	CharacterCreateForm	Default	FALSE	FALSE
+	104	加载	LoadForm	Default	FALSE	FALSE
+	105	游戏界面	GameForm	Default	FALSE	FALSE
+	106	遮罩	MaskForm	Default	FALSE	FALSE

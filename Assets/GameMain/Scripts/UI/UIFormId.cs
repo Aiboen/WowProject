@@ -20,20 +20,38 @@ namespace WowGame
         TipForm = 1,
 
         /// <summary>
-        /// 主菜单。
+        /// 登录
         /// </summary>
-        MenuForm = 100,
+        LoginForm = 100,
 
         /// <summary>
-        /// 设置。
+        /// 注册
         /// </summary>
-        SettingForm = 101,
+        RegisterForm = 101,
 
         /// <summary>
-        /// 关于。
+        /// 选择英雄
         /// </summary>
-        AboutForm = 102,
+        ChoiceForm = 102,
 
-        LoginForm = 103,
+        /// <summary>
+        /// 创建角色
+        /// </summary>
+        CharacterCreateForm = 103,
+
+        /// <summary>
+        /// 加载
+        /// </summary>
+        LoadForm = 104,
+
+        /// <summary>
+        /// 游戏界面
+        /// </summary>
+        GameForm = 105,
+
+        /// <summary>
+        /// 遮罩
+        /// </summary>
+        MaskForm = 106,
     }
 }
