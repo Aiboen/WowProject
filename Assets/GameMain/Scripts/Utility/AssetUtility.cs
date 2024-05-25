@@ -28,7 +28,7 @@ namespace WowGame
 
         public static string GetFontAsset(string assetName)
         {
-            return Utility.Text.Format("Assets/GameMain/Fonts/{0}.ttf", assetName);
+            return Utility.Text.Format("Assets/GameMain/Fonts/{0}.TTC", assetName);
         }
 
         public static string GetSceneAsset(string assetName)
